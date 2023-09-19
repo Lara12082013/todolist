@@ -1,0 +1,70 @@
+
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.todo {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(213, 183, 227);
+    height: 100vh;
+}
+
+.inputSpan {
+    width: 200px;
+    height: 36px;
+    border: none;
+    border-radius: 4px;
+    padding-left: 8px;
+    font-size: 16px;
+}
+
+.listItem {
+    display: flex;
+    align-items: center;
+    padding: 4px 2px;
+    margin: 10px 0;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+#btn {
+    border: none;
+    width: 80px;
+    border-radius: 4px;
+    color: white;
+    background-color: #5e06ac;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    background-color: #e6e6e6;
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    padding: 24px;
+    /*margin: 8px;*/
+}
+
+
+.deleteIcon {
+    height: 20px;
+    padding-right: 8px;
+}
+
+.todoSpan {
+    width: 100%;
+}
