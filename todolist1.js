@@ -1,3 +1,4 @@
+console.log('Barev dzez')
 let input = document.getElementById('todo');
 let button = document.getElementById('btn');
 let todoList = document.getElementById('todoList');
